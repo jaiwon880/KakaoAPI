@@ -95,20 +95,26 @@ st.metric(
     value=now.strftime("%Y-%m-%d"))
 
 
-st.write('''
-    ---
-    ## 프라다 
-''')
-show_store("_Islxaj")
+# st.write('''
+#     ---
+#     ## 프라다 
+# ''')
+# show_store("_Islxaj")
+
+# st.write('''
+#     ---
+#     ## 발렌시아가 
+# ''')
+# show_store("_wxofhxj")
+
+# st.write('''
+#     ---
+#     ## 입생로랑
+# ''')
+# show_store("_rAMaxb")
 
 st.write('''
     ---
-    ## 발렌시아가 
+    ## 나이키
 ''')
-show_store("_wxofhxj")
-
-st.write('''
-    ---
-    ## 입생로랑
-''')
-show_store("_rAMaxb")
+show_store("_fQxhxdz")
