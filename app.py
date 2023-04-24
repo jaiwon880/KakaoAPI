@@ -31,16 +31,17 @@ def show_menus(store_id):
         col.image(images[i])
 
 st.set_page_config(
-    page_title="구내식당 갈까?",
-    page_icon="🍽️",
+    page_title="신상 확인허실?",
+    page_icon="👕",
     # layout="wide",
 )
-st.title("흠 아이디어좀")
+st.title("신상 조아함?")
 now = datetime.now(pytz.timezone("Asia/Seoul"))
 st.metric(
     label="현재일자",
     value=now.strftime("%Y-%m-%d"))
-st.write("## 요기에 뭐 들어가노")
+st.write("---")
+st.write("### 요기에 뭐 들어가노")
 
 show_menus("_xfWxfCxj")
 
