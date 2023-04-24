@@ -18,7 +18,7 @@ def get_media(id, post_id):
     media = json["media"]
     return media
 
-def show_(store_id):
+def show_store(store_id):
     posts = get_posts(store_id)
     post_ids = [p['id'] for p in posts['items']]
     images = []
@@ -43,5 +43,5 @@ st.metric(
 st.write("---")
 st.write("### ㅎㅇ")
 
-show_("_qRuGz")
+show_store("_qRuGz")
 
