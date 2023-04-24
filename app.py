@@ -27,8 +27,8 @@ def show_store(store_id):
         for m in media:
             if m is not None:  # m이 NoneType이 아닐 때만 images 리스트에 추가
                 images.append(m['xlarge_url'])
-    cols = st.columns(min(1, len(images)))
-    for i, col in enumerate(cols[:1]):
+    cols = st.columns(min(3, len(images)))
+    for i, col in enumerate(cols[:3]):
         col.image(images[i])
 
 
