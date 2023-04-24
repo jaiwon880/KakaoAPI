@@ -18,6 +18,7 @@ def get_media(id, post_id):
     media = json["media"]
     return media
 
+
 def show_store(store_id):
     posts = get_posts(store_id)
     post_ids = [p['id'] for p in posts['items']]
@@ -25,8 +26,7 @@ def show_store(store_id):
     for post_id in post_ids:
         media = get_media(store_id, post_id)
         for m in media:
-            if m is not None:  # m이 NoneType이 아닐 때만 images 리스트에 추가
-                images.append(m['xlarge_url'])
+            images.append(m['xlarge_url'])
     cols = st.columns(min(3, len(images)))
     for i, col in enumerate(cols[:3]):
         col.image(images[i])
