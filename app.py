@@ -75,7 +75,7 @@ def show_store(store_id):
         for m in media:
             images.append(m.get('xlarge_url', '')) # xlarge_url 값이 없을 경우 빈 문자열 반환
     if images:
-        cols = st.columns(min(2, len(images)))
+        cols = st.columns(min(3, len(images)))
         for i, col in enumerate(cols):
             if i < len(images):
                 col.image(images[i], use_column_width=True)
@@ -95,6 +95,12 @@ st.metric(
     value=now.strftime("%Y-%m-%d"))
 
 
+st.write('''
+    ---
+    ## 나이키
+''')
+show_store("_fQxhxdz")
+
 # st.write('''
 #     ---
 #     ## 프라다 
@@ -112,9 +118,3 @@ st.metric(
 #     ## 입생로랑
 # ''')
 # show_store("_rAMaxb")
-
-st.write('''
-    ---
-    ## 나이키
-''')
-show_store("_fQxhxdz")
