@@ -26,7 +26,8 @@ def show_store(store_id):
     for post_id in post_ids:
         media = get_media(store_id, post_id)
         for m in media:
-            images.append(m['xlarge_url'])
+            if 'xlarge_url' in m:  # 'xlarge_url' 키가 있는 경우에만 추가
+                images.append(m['xlarge_url'])
     cols = st.columns(min(3, len(images)))
     for i, col in enumerate(cols[:3]):
         col.image(images[i])
