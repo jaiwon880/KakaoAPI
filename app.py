@@ -18,7 +18,7 @@ def get_media(id, post_id):
     media = json["media"]
     return media
 
-def show_menus(store_id):
+def show_(store_id):
     posts = get_posts(store_id)
     post_ids = [p['id'] for p in posts['items']]
     images = []
@@ -41,7 +41,7 @@ st.metric(
     label="현재일자",
     value=now.strftime("%Y-%m-%d"))
 st.write("---")
-st.write("### 요기에 뭐 들어가노")
+st.write("### ㅎㅇ")
 
-show_menus("_xfWxfCxj")
+show_menus("_VGxmxeu")
 
