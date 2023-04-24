@@ -25,10 +25,12 @@ def show_store(store_id):
     for post_id in post_ids:
         media = get_media(store_id, post_id)
         for m in media:
-            images.append(m['xlarge_url'])
+            if m is not None:  # m이 NoneType이 아닐 때만 images 리스트에 추가
+                images.append(m['xlarge_url'])
     cols = st.columns(min(1, len(images)))
     for i, col in enumerate(cols[:1]):
         col.image(images[i])
+
 
 st.set_page_config(
     page_title="신상 확인허실?",
