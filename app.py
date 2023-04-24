@@ -26,8 +26,8 @@ def show_store(store_id):
         media = get_media(store_id, post_id)
         for m in media:
             images.append(m['xlarge_url'])
-    cols = st.columns(min(3, len(images)))
-    for i, col in enumerate(cols[:3]):
+    cols = st.columns(min(2, len(images)))
+    for i, col in enumerate(cols[:2]):
         col.image(images[i])
 
 
