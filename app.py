@@ -43,5 +43,5 @@ st.metric(
 st.write("---")
 st.write("### ㅎㅇ")
 
-show_menus("_VGxmxeu")
+show_("_qRuGz")
 
