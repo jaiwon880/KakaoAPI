@@ -47,4 +47,4 @@ st.metric(
 st.write("---")
 st.write("### ㅎㅇ")
 
-show_store("_fQxhxdz")
+show_kakao_posts("_fQxhxdz")
