@@ -119,11 +119,11 @@ st.write('''
 ''')
 show_store("_rAMaxb")
 
-st.write('''
-    ---
-    ## 디올
-''')
-show_store("_dyBaT")
+# st.write('''
+#     ---
+#     ## 디올
+# ''')
+# show_store("_dyBaT")
 
 st.write('''
     ---
@@ -131,8 +131,8 @@ st.write('''
 ''')
 show_store("_xicwixj")
 
-st.write('''
-    ---
-    ## 구찌
-''')
-show_store("_SQxceC")
+# st.write('''
+#     ---
+#     ## 구찌
+# ''')
+# show_store("_SQxceC")
