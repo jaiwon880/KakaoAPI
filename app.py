@@ -44,5 +44,5 @@ st.metric(
     value=now.strftime("%Y-%m-%d"))
 st.write("---")
 
-show_store("_xfWxfCxj")
+show_store("_Islxaj")
 
