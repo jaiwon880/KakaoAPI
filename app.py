@@ -21,13 +21,12 @@ def get_media(id, post_id):
 
 def show_store(store_id):
     posts = get_posts(store_id)
+    post_ids = [p['id'] for p in posts['items']]
     images = []
-    for post in posts["items"]:
-        if "media" in post and post["media"] is not None:
-            media = post["media"]
-            for m in media:
-                if m is not None and "xlarge_url" in m:
-                    images.append(m["xlarge_url"])
+    for post_id in post_ids:
+        media = get_media(store_id, post_id)
+        for m in media:
+            images.append(m['xlarge_url'])
     cols = st.columns(min(3, len(images)))
     for i, col in enumerate(cols[:3]):
         col.image(images[i])
@@ -48,5 +47,5 @@ st.metric(
 st.write("---")
 st.write("### ㅎㅇ")
 
-show_store("_qRuGz")
+show_store("_fQxhxdz")
 
