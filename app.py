@@ -39,6 +39,7 @@ st.set_page_config(
 )
 st.title("신상 조아함?")
 now = datetime.now(pytz.timezone("Asia/Seoul"))
+st.write("---")
 st.metric(
     label="현재일자",
     value=now.strftime("%Y-%m-%d"))
