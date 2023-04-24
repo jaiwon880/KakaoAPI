@@ -107,11 +107,11 @@ st.write('''
 ''')
 show_store("_Islxaj")
 
-st.write('''
-    ---
-    ## 발렌시아가 
-''')
-show_store("_wxofhxj")
+# st.write('''
+#     ---
+#     ## 발렌시아가 
+# ''')
+# show_store("_wxofhxj")
 
 st.write('''
     ---
