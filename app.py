@@ -101,11 +101,11 @@ st.metric(
 # ''')
 # show_store("_fQxhxdz")
 
-st.write('''
-    ---
-    ## 프라다 
-''')
-show_store("_Islxaj")
+# st.write('''
+#     ---
+#     ## 프라다 
+# ''')
+# show_store("_Islxaj")
 
 # st.write('''
 #     ---
