@@ -71,11 +71,11 @@ show_store("_wxofhxj")
 # ''')
 # show_store("_rAMaxb")
 
-st.write('''
-    ---
-    ## 디올
-''')
-show_store("_dyBaT")
+# st.write('''
+#     ---
+#     ## 디올
+# ''')
+# show_store("_dyBaT")
 
 st.write('''
     ---
