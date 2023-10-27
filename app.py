@@ -34,7 +34,7 @@ def show_store(store_id):
         else:
             st.write("이 매장의 최근 게시물에는 이미지가 없어요")
     except Exception as e:
-        st.error(f"에러가 발생했어요: {e}") 
+        st.error("이 매장의 최근 게시물에는 이미지가 없어요") 
 
 # Page configuration
 st.set_page_config(page_title="트렌드 트래커", page_icon="👕")
