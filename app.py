@@ -50,7 +50,7 @@ def fetch_store_images(store_id):
 stores = {
     # "Prada": "_Islxaj",
     "Balenciaga": "_wxofhxj",
-    "YSL": "_rAMaxb",
+    # "YSL": "_rAMaxb",
     "Dior": "_dyBaT",
     "Givenchy": "_xicwixj",
     "Gucci": "_SQxceC",
