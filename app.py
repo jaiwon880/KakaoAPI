@@ -51,7 +51,7 @@ stores = {
     #"Prada": "_Islxaj",
     #"Balenciaga": "_wxofhxj",
     "YSL": "_rAMaxb",
-    "Dior": "_dyBaT",
+    # "Dior": "_dyBaT",
     "Givenchy": "_xicwixj",
     "Gucci": "_SQxceC",
     "Nike": "_fQxhxdz"
