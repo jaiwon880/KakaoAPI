@@ -54,7 +54,7 @@ stores = {
     # "Dior": "_dyBaT",
     "Givenchy": "_xicwixj",
     "Gucci": "_SQxceC",
-    "Nike": "_fQxhxdz"
+    # "Nike": "_fQxhxdz"
 }
 
 # 병렬 처리 적용
